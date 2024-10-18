@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('/fonts/Graphik-Regular.woff2') format('woff2'),
+        url('/fonts/Graphik-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Graphik', sans-serif;
+    font-weight: 400;
+}
+
+.main_container {
+    background-color: #FFFFFF;
+
+ }
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0.5rem;
+}
+.options_logo{
+    display: none;
+}
+
+.logo {
+    margin-right: 17vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 8%;
+}
+
+.h1_style {
+    font-size: 1.3rem;
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0px;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.p_style_options {
+    font-size: 22px;
+    font-family: 'Graphik', Arial, sans-serif;
+    margin: 0px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.header_options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+
+} 
+
+.home_container {
+    margin-top: 15vh;
+    height: 78vh;
+}
+
+.home_p_style {
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.video_container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.videos_container_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 100%;
+}
+
+.video1 {
+    width: 100%;
+    height: auto;
+}
+
+.play_icon {
+    width: 5rem;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    pointer-events: none;
+
+}
+
+.play_h1 {
+    font-size: 80px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.branding_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.branding_content_container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.branding_para {
+    font-size: 20px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.ocean_container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.videos_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video2 {
+    width: 40%;
+
+}
+
+.video3 {
+    width: 60%;
+
+}
+
+.branding_video_para {
+    font-size: 20px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.famous_brands_container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+.famous_brands_logos {
+    margin-top: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.famous_brands_content {
+    width: 50%;
+}
+
+.famous_brands_description {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.famous_branding_heading {
+    font-size: 23px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.famous_branding_para {
+    font-size: 20px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.person_pic {
+    width: 500px;
+    margin: 0px;
+}
+
+.comfort_container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.overlay2 {
+
+    flex-direction: column;
+
+}
+
+.description_container {
+    margin-top: 5rem;
+
+}
+
+.description_h1 {
+    font-size: 84px;
+    line-height: 84px;
+}
+
+.images_container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.meeting_container {
+    width: 70%;
+}
+
+.image_meeting {
+    width: 100%;
+}
+
+.kope_container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.kope_uncle {
+    width: 100%;
+
+}
+
+.portugal_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.awards_container {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.awards_names {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.awards_options {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.awards_heading {
+    font-size: 25px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.awards_heading_options {
+    font-size: 19px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.branding_award_para {
+    font-size: 19px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 7px;
+}
+
+.footer_container {
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.joinus_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.branding_footer_para {
+    font-size: 17px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: grey;
+}
+
+.details_container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 8rem;
+}
+
+.branding_footer_para_dark {
+    font-size: 17px;
+    font-family: "poppins", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+    color: black;
+}
+
+.video_hover {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.video_hover_video {
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width:768px) {
+    .home_p_style {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .home_container{
+        height:60vh;
+    }
+
+    .play_h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .play_icon {
+        width: 25px;
+    }
+
+   
+    .video_container {
+        max-width: 100%;
+    }
+
+    .video1 {
+        max-width: 100%;
+    }
+
+    .videos_container_two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .video_hover {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .video_hover_video {
+        width: 100%;
+        margin: 0px;
+    }
+
+ 
+    .famous_brands_container {
+        flex-direction: column;
+    }
+
+    .famous_brands_logos {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .famous_brands_content {
+        width: 100%;
+    }
+
+    .famous_brands_description {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .famous_branding_heading {
+        margin: 0px;
+    }
+
+    .ocean_container {
+        flex-direction: column;
+    }
+
+    .person_pic {
+        width: 80%;
+    }
+
+    .videos_container {
+        flex-direction: column;
+    }
+
+    .ocean_video {
+        height: 300px;
+    }
+
+    .comfort_container {
+        height: 60vh;
+    }
+
+    .images_container {
+        flex-direction: column;
+    }
+
+    .meeting_container {
+        width: 100%;
+    }
+
+    .kope_container {
+        width: 100%;
+    }
+    .awards_names{
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow: scroll;
+    }
+    .overlay2{
+       flex-direction:column;
+       align-items: flex-start;
+       justify-content: flex-start;
+
+    }
+    .joinus_container{
+        margin-left:1.5rem;
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+
+    .mobile_none{
+        display: none;
+    }
+    .video_container_leather{
+        width: 100%;
+    }
+    .video6{
+        width:100%;
+    }
+    .header_options{
+        display: none;
+    }
+    .header_container{
+        justify-content: space-between;
+    }
+    .options_logo{
+        display: flex;
+    }
+    .optionslogo{
+        width:30px;
+      
+    }
+    .logo{
+        width:20%;
+    }
+    .h1_style {
+        font-size:15px;
+        margin-right:5px;
+        line-height:15px;
+    }
+    
+}
