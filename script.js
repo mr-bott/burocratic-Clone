@@ -37,12 +37,3 @@ videos.forEach((video) => {
 
 });
 
-
-// Get the hamburger icon and the header options element
-const hamburgerIcon = document.getElementById("hamburger-icon");
-const headerOptions = document.getElementById("header-options");
-
-// Toggle the 'open' class to show/hide the header options
-hamburgerIcon.addEventListener("click", () => {
-  headerOptions.classList.toggle("open");
-});
